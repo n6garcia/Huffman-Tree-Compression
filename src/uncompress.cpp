@@ -1,8 +1,3 @@
-/**
- * TODO: file header
- *
- * Author:
- */
 #include <cxxopts.hpp>
 #include <fstream>
 #include <iostream>

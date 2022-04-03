@@ -6,8 +6,6 @@
 #include "HCNode.hpp"
 #include "HCTree.hpp"
 
-/* TODO: Pseudo decompression with ascii encoding and naive header (checkpoint)
- */
 void pseudoDecompression(const string& inFileName, const string& outFileName) {
     ifstream inFile;
     ofstream outFile;
@@ -43,7 +41,6 @@ void pseudoDecompression(const string& inFileName, const string& outFileName) {
     outFile.close();
 }
 
-/* TODO: True decompression with bitwise i/o and small header (final) */
 void trueDecompression(const string& inFileName, const string& outFileName) {
     ifstream inFile;
     ofstream outFile;

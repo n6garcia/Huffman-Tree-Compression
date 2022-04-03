@@ -16,10 +16,6 @@ class BitOutputStream {
     unsigned int padding;
 
   public:
-    /**
-     * TODO: Initializes member variables. In particular, the char array should
-     * have size bufSize.
-     */
     explicit BitOutputStream(ostream& os, unsigned int bufSize) : out(os) {
         this->bufSize = bufSize;
         nbits = 0;

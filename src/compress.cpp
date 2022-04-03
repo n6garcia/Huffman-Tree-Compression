@@ -6,8 +6,6 @@
 #include "HCNode.hpp"
 #include "HCTree.hpp"
 
-/* TODO: add pseudo compression with ascii encoding and naive header
- * (checkpoint) */
 void pseudoCompression(const string& inFileName, const string& outFileName) {
     ifstream inFile;
     ofstream outFile;
@@ -42,7 +40,6 @@ void pseudoCompression(const string& inFileName, const string& outFileName) {
     outFile.close();
 }
 
-/* TODO: True compression with bitwise i/o and small header (final) */
 void trueCompression(const string& inFileName, const string& outFileName) {
     ifstream inFile;
     ofstream outFile;

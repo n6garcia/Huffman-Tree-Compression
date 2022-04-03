@@ -20,10 +20,6 @@ class BitInputStream {
     bool atEndOfFile();
 
   public:
-    /**
-     * TODO: Initializes member variables. In particular, the char array should
-     * have size bufSize.
-     */
     explicit BitInputStream(istream& is, unsigned int bufSize) : in(is) {
         this->bufSize = bufSize;
         byteCap = bufSize;

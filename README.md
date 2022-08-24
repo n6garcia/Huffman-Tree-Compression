@@ -1,6 +1,4 @@
 # Huffman-Tree-Compression
-
-## Intro
 Implemented a Huffman Tree Data Structure and used it to perform lossless compression on file bytes.
 
 ## Huffman Tree
